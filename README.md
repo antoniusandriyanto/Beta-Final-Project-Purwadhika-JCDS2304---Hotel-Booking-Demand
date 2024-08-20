@@ -48,8 +48,6 @@ Bagaimana pemanfaatan analisis segmentasi tamu dan pemanfaatan *Machine Learning
 > ### **Metric Evaluation**
 
 
-![image.png](https://www.researchgate.net/publication/328148379/figure/fig1/AS:679514740895744@1539020347601/Model-performance-metrics-Visual-representation-of-the-classification-model-metrics.png)
-
 - *(TP) True Positive*: Tamu diprediksi (predict) cancel dan kenyataannya (actual) benar-benar cancel.
 - *(FP) False Positive*: Tamu diprediksi (predict) cancel, tapi kenyataannya (actual) tidak cancel.
 - *(TN) True Negative*: Tamu diprediksi (predict) tidak cancel dan kenyataannya (actual) tidak cancel.
@@ -68,3 +66,12 @@ Konsekuensi : tamu yang seharusnya *cancel* akan dianggap tidak *cancel* tentuny
 Berdasarkan *problem statement* dan *goals* dari analisis ini, maka prioritas utamanya adalah memastikan bahwa model *machine learning* dapat memprediksi setiap pembatalan yang mungkin terjadi  dengan ketepatan yang tinggi. Dengan keperluan untuk mempertimbangkan keharmonisan prediksi seperti F1-score tetapi lebih menekankan pada pengurangan Type I error (false positive) atau lebih fokus pada recall, **maka F2-score menjadi pilihan yang baik**.
 
 F2-score merupakan varian dari F1 score yang memberikan bobot lebih pada recall daripada precision.Penggunaan F2-score dalam konteks prediksi pembatalan pemesanan hotel mencerminkan strategi bisnis yang memprioritaskan meminimalkan Type 2 error (false negative)—yang berarti memastikan bahwa Anda memprediksi sebanyak mungkin pembatalan yang sebenarnya.
+
+
+<hr>
+
+## <center> Random Forest
+
+<hr>
+
+![image](https://github.com/user-attachments/assets/c07c3a7e-246f-495b-ad09-0d08b08adda7)
