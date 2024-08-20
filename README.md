@@ -1,5 +1,9 @@
 # Beta-Final-Project-Purwadhika-JCDS2304---Hotel-Booking-Demand
 
+# <center>**Analisis RFM terhadap Dataset Hotel Booking Demand**
+
+![image](https://github.com/user-attachments/assets/f94da422-be25-4134-ba62-f9c941ff12d8)
+
 <hr>
 
 ## <center>**Business Understanding**
@@ -46,7 +50,7 @@ Bagaimana pemanfaatan analisis segmentasi tamu dan pemanfaatan *Machine Learning
    - Menerapkan kampanye pemasaran yang ditargetkan dan memantau efektivitasnya.
 
 > ### **Metric Evaluation**
-
+![image](https://github.com/user-attachments/assets/a01e4579-b204-4635-968c-58ed4b36d37a)
 
 - *(TP) True Positive*: Tamu diprediksi (predict) cancel dan kenyataannya (actual) benar-benar cancel.
 - *(FP) False Positive*: Tamu diprediksi (predict) cancel, tapi kenyataannya (actual) tidak cancel.
@@ -75,3 +79,12 @@ F2-score merupakan varian dari F1 score yang memberikan bobot lebih pada recall 
 <hr>
 
 ![image](https://github.com/user-attachments/assets/c07c3a7e-246f-495b-ad09-0d08b08adda7)
+Pada kedua alat prediksi untuk City Hotel dan Resort Hotel menggunakan Random Forest. Random Forest merupakan suatu algoritma yang menggunakan decision tree untuk melangsungkan proses seleksi, di mana pohon decision tree akan dibagi secara rekursif berdasarkan data pada kelas yang sama. Oleh karena itu dengan menggunakan tree yang semakin banyak maka akan berpengaruh terhadap akurasi yang didapatkan menjadi lebih baik. Untuk prediksi klasifikasi pada Random Forest sendiri nantinya setiap pohon akan memberikan prediksi kelas. Prediksi akhir dari Random Forest dihasilkan dengan mengambil suara mayoritas dari semua pohon.
+
+Pada Random Forest dapat dilakukan hyperparameter tuning dengan parameter :
+
+- n_estimators: Jumlah pohon dalam hutan.
+- max_depth: Kedalaman maksimum dari pohon keputusan.
+- min_samples_split: Jumlah minimum sampel yang diperlukan untuk membagi sebuah node.
+- min_samples_leaf: Jumlah minimum sampel yang diperlukan untuk menjadi leaf node (simpul daun).
+- model_bootstrap: Apakah sampel bootstrap digunakan saat membuat pohon. Jika Salah, seluruh kumpulan data digunakan untuk membangun setiap pohon.
