@@ -9,6 +9,7 @@
 ## <center>**Business Understanding**
 
 <hr>
+
 ***Stakeholder***: ***Revenue Manager*** dari Manajemen Hotel Tuvoli
 
 
