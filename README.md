@@ -79,6 +79,7 @@ F2-score merupakan varian dari F1 score yang memberikan bobot lebih pada recall 
 <hr>
 
 ![image](https://github.com/user-attachments/assets/c07c3a7e-246f-495b-ad09-0d08b08adda7)
+
 Pada kedua alat prediksi untuk City Hotel dan Resort Hotel menggunakan Random Forest. Random Forest merupakan suatu algoritma yang menggunakan decision tree untuk melangsungkan proses seleksi, di mana pohon decision tree akan dibagi secara rekursif berdasarkan data pada kelas yang sama. Oleh karena itu dengan menggunakan tree yang semakin banyak maka akan berpengaruh terhadap akurasi yang didapatkan menjadi lebih baik. Untuk prediksi klasifikasi pada Random Forest sendiri nantinya setiap pohon akan memberikan prediksi kelas. Prediksi akhir dari Random Forest dihasilkan dengan mengambil suara mayoritas dari semua pohon.
 
 Pada Random Forest dapat dilakukan hyperparameter tuning dengan parameter :
