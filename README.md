@@ -90,3 +90,7 @@ Pada Random Forest dapat dilakukan hyperparameter tuning dengan parameter :
 - min_samples_split: Jumlah minimum sampel yang diperlukan untuk membagi sebuah node.
 - min_samples_leaf: Jumlah minimum sampel yang diperlukan untuk menjadi leaf node (simpul daun).
 - model_bootstrap: Apakah sampel bootstrap digunakan saat membuat pohon. Jika Salah, seluruh kumpulan data digunakan untuk membangun setiap pohon.
+
+link Tableau:
+Hotel Booking Dashboard : https://public.tableau.com/shared/T5586WRSY?:display_count=n&:origin=viz_share_link
+RFM Hotel Booking Dashboard : https://public.tableau.com/views/RFMHotelBookingDashboard/RFMHotelBookingDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
