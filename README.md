@@ -92,5 +92,7 @@ Pada Random Forest dapat dilakukan hyperparameter tuning dengan parameter :
 - model_bootstrap: Apakah sampel bootstrap digunakan saat membuat pohon. Jika Salah, seluruh kumpulan data digunakan untuk membangun setiap pohon.
 
 link Tableau:
+
 Hotel Booking Dashboard : https://public.tableau.com/shared/T5586WRSY?:display_count=n&:origin=viz_share_link
+
 RFM Hotel Booking Dashboard : https://public.tableau.com/views/RFMHotelBookingDashboard/RFMHotelBookingDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
